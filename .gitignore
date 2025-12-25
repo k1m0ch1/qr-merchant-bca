@@ -1,0 +1,41 @@
+# Binaries
+*.exe
+bcaqr
+/bcaqr
+
+.env
+
+.playwright-mcp/
+.claude/
+
+# Session files
+.bcaqr_session.json
+*.bcaqr_session.json
+
+# Go build artifacts
+*.o
+*.a
+*.so
+
+# Test binaries
+*.test
+
+# Output of the go coverage tool
+*.out
+
+# Dependency directories
+vendor/
+
+# Go workspace file
+go.work
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
